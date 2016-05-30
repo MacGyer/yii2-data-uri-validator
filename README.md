@@ -12,3 +12,17 @@ To install the package add the following to the ```require``` section of your co
     "macgyer/yii2-data-uri-validator": "*"
 },
 ```
+
+## Usage
+
+Just add the validator to your Model class:
+```
+// rules
+public function rules()
+{
+  return [
+      // more rules
+      ['some_property', \macgyer\yii2dataurivalidator\DataUriValidator::className()],
+  ];
+}
+```
