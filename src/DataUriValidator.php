@@ -1,8 +1,8 @@
 <?php
 /**
- * @link https://github.com/MacGyer/yii2-cropit
+ * @link https://github.com/MacGyer/yii2-data-uri-validator
  * @copyright Copyright (c) 2016 ... MacGyer for pluspunkt coding
- * @license https://github.com/MacGyer/yii2-cropit/blob/master/LICENSE
+ * @license https://github.com/MacGyer/yii2-data-uri-validator/blob/master/LICENSE
  */
 
 namespace macgyer\yii2dataurivalidator;
@@ -13,7 +13,7 @@ use Yii;
 /**
  * DataUriValidator validates that the attribute value is a valid data uri.
  *
- * @package yii2cropit
+ * @package yii2dataurivalidator
  */
 class DataUriValidator extends Validator
 {
